@@ -2,8 +2,9 @@
 
 ## ARC counting
 
-codes below as a workaround for viewModel signals's subscribtions would be released unexpectly under 14.5.
-If *createLoginController()* method was implemented in a custom UIHostingController, the event flow will auto released under iOS 14.5
+code below as a workaround for viewModel signals's subscribtions would be released unexpectly under 14.5.
+
+If *createLoginController()* method was implemented in a custom UIHostingController, the event flow will auto released under iOS 14.5.
 
 ```swift
     override func prepareTransition(for route: LoginGuideRoute) -> NavigationTransition {
