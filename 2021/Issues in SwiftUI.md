@@ -1,4 +1,4 @@
-# Issues in SwiftUI
+# SwiftUI issues
 
 ## ARC counting
 
